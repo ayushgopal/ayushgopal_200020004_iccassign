@@ -64,13 +64,13 @@ if (isset($_POST['submit'])) {
            
                 
                 
-                
+                $conn->query($Insert);
                 if ($conn->query($Insert)) {
                     echo "New record inserted sucessfully.";
                 }
                 else {
                     
-                    echo $mysqli ->error;
+                    
                     echo "yy";
                 }
             }
