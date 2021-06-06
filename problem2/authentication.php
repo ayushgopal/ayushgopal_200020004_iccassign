@@ -123,7 +123,7 @@ if (isset($_POST['submit'])) {
                 
                 
                 $row = $result->fetch_assoc();
-                echo $row;
+                
                 $storename=$row["fullname"];
                 
                 $storeemail=$row["email"];
