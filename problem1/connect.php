@@ -32,7 +32,7 @@ if (isset($_POST['submit'])) {
                 }
                 else {
                     
-                    echo $stmt->error;
+                    echo "yy";
                 }
             }}
             
